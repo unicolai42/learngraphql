@@ -4,11 +4,11 @@ const _ = require('lodash')
 const {GraphQLObjectType, GraphQLID, GraphQLString, GraphQLInt, GraphQLList, GraphQLSchema} = graphql
 
 const books = [
-    {name: 'a', genre: 'qw', id: "1", authorId: "2"},
+    {name: 'a', genre: 'qw', id: "1", authorId: "1"},
     {name: 'b', genre: 'qw', id: "2", authorId: "2"},
     {name: 'c', genre: 'az', id: "3", authorId: "2"},
-    {name: 'd', genre: 'az', id: "4", authorId: "3"},
-    {name: 'e', genre: 'qw', id: "5", authorId: "1"}
+    {name: 'd', genre: 'az', id: "4", authorId: "2"},
+    {name: 'e', genre: 'qw', id: "5", authorId: "3"}
 ]
 
 const authors = [
